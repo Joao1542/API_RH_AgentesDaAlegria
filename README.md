@@ -3,7 +3,7 @@
   like: activities with underprivileged children, visit to children's hospitals, actions with the elderly and special people and much more. 
   In support of the cause I decided to develop this API, an app to consume it and a website to promote the project!  :smile: :smile:
 
-![logo image](./src/logo.jpg){: width=450 style="float:right; padding:16px"}
+<img src="./src/logo.jpg" alt="logo image" width=450 style="float:right; padding:16px">
 
 
 ### Motivation
