@@ -3,7 +3,7 @@
   like: activities with underprivileged children, visit to children's hospitals, actions with the elderly and special people and much more. 
   In support of the cause I decided to develop this API, an app to consume it and a website to promote the project!  :smile: :smile:
 
-![logo image](https://storage.googleapis.com/transforma-homolog/user-uploaded/images/5b0f95d6-66b5-4902-b58e-9a131bccf959.jpeg)
+![logo image](./logo.jpg)
 
 ### Motivation
   The group has over 500 volunteers and there is no way to know who is active or not in the actions.
@@ -14,18 +14,19 @@
 
   ***To run the API locally, follow these steps:***
 ```
-  git clone https://github.com/Juaozim/API_RH_AgentesDaAlegria
-  npm install
-  npm run dev
+git clone https://github.com/Juaozim/API_RH_AgentesDaAlegria
+npm install
+npm run dev
 ```
 ### Documentation
   In process
 
 ### Dependencies
-  - [body-parser](https://www.npmjs.com/package/body-parser)
-  - [cors](https://www.npmjs.com/package/cors)
-  - [express](https://www.npmjs.com/package/express)
-  - [moment](https://www.npmjs.com/package/moment)
-  - [validator](https://www.npmjs.com/package/validator)
+- [body-parser](https://www.npmjs.com/package/body-parser)
+- [cors](https://www.npmjs.com/package/cors)
+- [express](https://www.npmjs.com/package/express)
+- [moment](https://www.npmjs.com/package/moment)
+- [validator](https://www.npmjs.com/package/validator)
+  
   
 > Thanks for reading this far !!   :smile: :yellow_heart:

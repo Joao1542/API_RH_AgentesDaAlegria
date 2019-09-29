@@ -8,7 +8,7 @@
     "dev": "node node_modules/nodemon/bin/nodemon bin/server"
   },
   "keywords": [],
-  "author": "",
+  "author": "João Victor Freitas R. De Sousa",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
