@@ -2,9 +2,9 @@
   The Agentes Da Alegria group is an NGO that works with any kind of social action,
   like: activities with underprivileged children, visit to children's hospitals, actions with the elderly and special people and much more. 
   In support of the cause I decided to develop this API, an app to consume it and a website to promote the project!  :smile: :smile:
-
-<img src="./src/logo.jpg" alt="logo image" width=450 style="float:right; padding:16px">
-
+<span style="display:block;text-align:center">
+  <img src="./src/logo.jpg" alt="logo image" width=450 style="float:right;">
+</span>
 
 ### Motivation
   The group has over 500 volunteers and there is no way to know who is active or not in the actions.
