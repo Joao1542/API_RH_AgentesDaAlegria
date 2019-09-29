@@ -1,14 +1,14 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
+const cors = require('cors');
 require('dotenv').config();
-const bodyParser = require('body-parser')
 
 // Database
 mongoose.connect(process.env.DATABASE_CONNECTION_STRING, {
   useNewUrlParser: true,
   useFindAndModify: false,
   useCreateIndex: true,
-  //Deprecated warning is fixed by adding this follow line: 
   useUnifiedTopology: true
 });
 const db = mongoose.connection;
@@ -24,6 +24,7 @@ db.on('disconnected', () => {
 
 // App
 const app = express();
+app.use(cors());
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
@@ -34,4 +35,12 @@ app.use('/voluntarios', voluntarioRoutes);
 
 const acoesRoutes = require('./routes/atividade-routes');
 app.use('/acoes', acoesRoutes);
+
+// Route not found
+app.use((req, res, next) => {
+  const err = new Error('Rota não encontrada');
+  err.status = 404;
+  next(err);
+});
+
 module.exports = app;
