@@ -20,7 +20,7 @@ npm install
 npm run dev
 ```
 ### Documentation
-  In process
+  [Documentation](https://documenter.getpostman.com/view/6751126/SVn3tvza)
 
 ### Dependencies
 - [body-parser](https://www.npmjs.com/package/body-parser)
