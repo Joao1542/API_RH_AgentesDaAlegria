@@ -3,7 +3,7 @@
   like: activities with underprivileged children, visit to children's hospitals, actions with the elderly and special people and much more. 
   In support of the cause I decided to develop this API, an app to consume it and a website to promote the project!  :smile: :smile:
 
-![logo image](./logo.jpg)
+![logo image](./src/logo.jpg)
 
 ### Motivation
   The group has over 500 volunteers and there is no way to know who is active or not in the actions.
