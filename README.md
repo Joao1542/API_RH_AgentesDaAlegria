@@ -10,18 +10,6 @@
   The group has over 500 volunteers and there is no way to know who is active or not in the actions.
   Therefore, this API is being made to optimize this process.
 
-### How can I use this API?
-  The API was made with Node.js, so you will need to have it installed on your computer.
-
-  ***To run the API locally, follow these steps:***
-```
-git clone https://github.com/Juaozim/API_RH_AgentesDaAlegria
-npm install
-npm run dev
-```
-### Documentation
-  [Documentation](https://documenter.getpostman.com/view/6751126/SVn3tvza)
-
 ### Dependencies
 - [body-parser](https://www.npmjs.com/package/body-parser)
 - [cors](https://www.npmjs.com/package/cors)
